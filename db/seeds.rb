@@ -5,3 +5,51 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+
+require "open-uri"
+
+puts "cleaning DB"
+Project.destroy_all
+
+puts "creating projects"
+
+Project.create!(
+  name: "evening audio",
+  date: Date.today,
+  description: "beautiful things",
+  img_one: "1.png",
+  img_two: "2.png"
+)
+
+Project.create!(
+  name: "leiras de jericó",
+  date: Date.today,
+  description: "beautiful things",
+  img_one: "jerico.jpg"
+)
+
+Project.create!(
+  name: "noao",
+  date: Date.today,
+  description: "beautiful things"
+)
+
+Project.create!(
+  name: "genes",
+  date: Date.today,
+  description: "beautiful things"
+)
+
+Project.create!(
+  name: "cadastro",
+  date: Date.today,
+  description: "beautiful things"
+)
+
+Project.create!(
+  name: "genes",
+  date: Date.today,
+  description: "beautiful things"
+)
+
+puts "there you go"

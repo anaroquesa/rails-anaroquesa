@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  date: 2023-06-21
+  description: MyText
+  img_one: MyString
+  img_two: MyString
+  img_three: MyString
+  img_four: MyString
+  img_five: MyString
+  img_six: MyString
+
+two:
+  name: MyString
+  date: 2023-06-21
+  description: MyText
+  img_one: MyString
+  img_two: MyString
+  img_three: MyString
+  img_four: MyString
+  img_five: MyString
+  img_six: MyString
