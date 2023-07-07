@@ -31,25 +31,29 @@ Project.create!(
 Project.create!(
   name: "noao",
   date: Date.today,
-  description: "beautiful things"
+  description: "beautiful things",
+  img_one: "sdc.png"
 )
 
 Project.create!(
   name: "genes",
   date: Date.today,
-  description: "beautiful things"
+  description: "beautiful things",
+  img_one: "genes_1.jpg"
 )
 
 Project.create!(
-  name: "cadastro",
+  name: "paperising",
   date: Date.today,
-  description: "beautiful things"
+  description: "beautiful things",
+  img_one: "paperising_1.png"
 )
 
 Project.create!(
-  name: "genes",
+  name: "typo",
   date: Date.today,
-  description: "beautiful things"
+  description: "beautiful things",
+  img_one: "typo_1.png"
 )
 
 puts "there you go"

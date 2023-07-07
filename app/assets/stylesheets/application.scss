@@ -1,7 +1,21 @@
 @import "config/fonts";
 @import "config/bootstrap_variables";
+@import "/bootstrap";
 
+a {
+  text-decoration: none;
+}
 
-@import "bootstrap";
+a:hover {
+  color: rgba(255, 255, 255, 0.5);
+  font-style: italic;
+}
 
-@import "pages/project";
+.box:hover h3 {
+  font-size: 5rem;
+  transition: 1s;
+}
+
+.project {
+  width: 90vw;
+}

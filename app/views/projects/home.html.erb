@@ -1,7 +1,11 @@
-<ul>
-  <% Project.all.each do |project| %>
-    <a href="<%= project_path(project) %>"><h3><%= project.name %></h3></a>
-    <p><%= project.date %></p>
-    <p><%= project.description %></p>
-  <% end %>
-</ul>
+<div class="d-flex justify-content-between">
+  <ul>
+    <% Project.all.each do |project| %>
+      <a href="<%= project_path(project) %>">
+        <% if project.img_one.present? %>
+          <%= image_tag(project.img_one,  style: "width: 30vw; height: 40vh; object-fit: cover;") %>
+        <% end %>
+      </a>
+    <% end %>
+  </ul>
+</div>

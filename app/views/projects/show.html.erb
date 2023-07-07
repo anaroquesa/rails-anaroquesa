@@ -1,5 +1,5 @@
 <div class="project">
-  <div class="bigimage"><%= image_tag(@project.img_one) %></div>
+  <div class="bigimage"><%= image_tag(@project.img_one, style: "width: 95vw; center") %></div>
   <div class="otherimages"><% if @project.img_two.present? %>
     <%= image_tag(@project.img_two) %>
   <% end %></div>
